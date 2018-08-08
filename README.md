@@ -1,8 +1,7 @@
 # ISS-Tracker
 ### Thanks to Daniel Eichhorn (https://github.com/squix78) and LeRoy Miller (https://github.com/kd8bxp) for their inspiring code.
 
-### Base64 encoding code by Rene Nyfenegger:
-http://www.adp-gmbh.ch/cpp/common/base64.html
+### Base64 encoding code by Rene Nyfenegger: http://www.adp-gmbh.ch/cpp/common/base64.html
 
 
 
