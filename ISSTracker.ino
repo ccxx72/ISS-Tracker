@@ -113,7 +113,7 @@ String timeZone(String location,String timeStamp){
   Serial.println(F("Connected!"));
 
   // Send HTTP request
-  client.println(("GET /maps/api/timezone/json?location=" + location + "&timestamp=" + timeStamp + "&key=AIzaSyDPzgxG79SnP5pVOdepGGbhQTPXdrZzOJk HTTP/1.0"));
+   client.println(("GET /maps/api/timezone/json?location=" + location + "&timestamp=" + timeStamp + "&key=" + googleKey + " HTTP/1.0"));
   client.println(F("Host: maps.googleapis.com"));
   client.println(F("Connection: close"));
   if (client.println() == 0) {
