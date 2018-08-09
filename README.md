@@ -5,7 +5,10 @@
 ### Daniel Eichhorn (https://github.com/squix78) 
 ### LeRoy Miller (https://github.com/kd8bxp) 
 ### Rene Nyfenegger: http://www.adp-gmbh.ch/cpp/common/base64.html 
-### for their inspiring code.
+### for their inspiring code and
+### ALEXANDER MYLNIKOV https://www.mylnikov.org
+### for the Geolocation API
+
 
 
 
