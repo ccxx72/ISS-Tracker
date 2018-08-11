@@ -431,6 +431,10 @@ String humanTime(unsigned int epoch){
 void setup() {
   Serial.begin(115200);
   M5.begin();
+  /** add those lines if you are using ESP32 ad ILI9341 display
+  M5.Lcd.setRotation(7);
+  M5.Lcd.invertDisplay(false);
+  **/
   M5.Lcd.setBrightness(200);
   M5.Lcd.setCursor(15, 15);
   M5.Lcd.setFreeFont(FF17);
