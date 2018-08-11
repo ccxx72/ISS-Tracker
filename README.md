@@ -16,7 +16,9 @@
 ## M5Stack
   https://www.banggood.com/M5Stack-Extensible-Micro-Control-Module-WiFi-Bluetooth-ESP32-Development-Kit-For-Arduino-LCD-p-1236069.html?p=3F271674015120140854
 
-### or (this setup requires small changes to the M5Stack library).  
+### or (this setup requires small changes to the file M5Stack\src\utility\Display.h).
+    #define TFT_WIDTH 240  // was 320
+    #define TFT_HEIGHT 320  //was 240
 
 ## ESP32
   https://www.banggood.com/ESP32-Development-Board-WiFiBluetooth-Ultra-Low-Power-Consumption-Dual-Cores-ESP-32-ESP-32S-Board-p-1109512.html?p=3F271674015120140854
