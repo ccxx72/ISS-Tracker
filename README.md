@@ -21,7 +21,7 @@
     #define TFT_HEIGHT 320  //was 240
 
 ## ESP32
-  https://www.banggood.com/ESP32-Development-Board-WiFiBluetooth-Ultra-Low-Power-Consumption-Dual-Cores-ESP-32-ESP-32S-Board-p-1109512.html?p=3F271674015120140854
+  https://www.banggood.com/Wemos-Pro-ESP32-WIFI-Bluetooth-Board-4MB-Flash-p-1164459.html?p=3F271674015120140854
 
 ## 2.8 Inch ILI9341 240x320 SPI TFT LCD Display Touch Panel
   https://www.banggood.com/2_8-Inch-ILI9341-240x320-SPI-TFT-LCD-Display-Touch-Panel-SPI-Serial-Port-Module-p-1206782.html?p=3F271674015120140854
@@ -46,6 +46,12 @@
   SCK - 18
   
   LED - Vin
+  
+  ### Buttons (not all devboard expose those pins. You can change this changing rows of M5Stack\src\utility\Config.h)
+  
+    #define BUTTON_A_PIN 39
+    #define BUTTON_B_PIN 38
+    #define BUTTON_C_PIN 37
   
 # Libraries required
 ## M5Stack
